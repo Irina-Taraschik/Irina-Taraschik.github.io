@@ -1,0 +1,28 @@
+.howItWorks {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.howItWorks__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.howItWorks__item {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+}
+.howItWorks__item-title {
+  margin-top: 15px;
+  font-size: 30px;
+  line-height: 35px;
+  display: block;
+}
+.howItWorks__button {
+  margin-top: 50px;
+  display: flex;
+  
+}
