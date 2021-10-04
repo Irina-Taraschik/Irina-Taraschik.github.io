@@ -3,11 +3,20 @@
   padding-bottom: 30px;
   width: 100%;
 }
+
+.howItWorks__title {
+  font-size: 35px;
+  text-align: center;
+  line-height: 60px;
+}
+
 .howItWorks__items {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
 }
+
 .howItWorks__item {
   flex: 1 1 200px;
   display: flex;
@@ -15,14 +24,23 @@
   align-items: center;
   margin: 0 15px;
 }
+
 .howItWorks__item-title {
   margin-top: 15px;
-  font-size: 30px;
+  font-size: 27px;
   line-height: 35px;
   display: block;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+.howItWorks__item-description {
+  text-align: center;
+  font-size: 15px;
+}
+
 .howItWorks__button {
   margin-top: 50px;
   display: flex;
-  
+  justify-content: center;
 }
