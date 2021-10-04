@@ -4,7 +4,7 @@
   min-height: 612px;
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .first-section__content {
@@ -35,7 +35,7 @@
 }
 
 .first-section__image {
-  width: 75%;
+  width: 80%;
   height: 100%;
   position: relative;
   overflow: hidden;
