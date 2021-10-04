@@ -1,11 +1,10 @@
 .button {
-  display: inline-block;
+	display: inline-block;
 	border: 1px solid var(--accent);
 	color: var(--accent);
 	text-decoration: none;
 	padding: 15px 45px;
 	font-size: 13px;
-	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 3px;
 	border-radius: 25px;
@@ -15,17 +14,22 @@
 	transition: all .1s ease;
 	cursor: pointer;
 }
-.button:focus, .button:hover {
-  text-decoration: none;
-  color: lighten(var(--accent), 5%);
-}
+
+.button:focus,
 .button:hover {
-  background-color: lighten(var(--accent), 5%)
+	text-decoration: none;
+	color: lighten(var(--accent), 5%);
 }
+
+.button:hover {
+	background-color: lighten(var(--accent), 5%)
+}
+
 .button:active {
-  background-color: darken(var(--accent), 5%)
+	background-color: darken(var(--accent), 5%)
 }
+
 .button-black {
-  color: black;
-  border: 1px solid black;
+	color: black;
+	border: 1px solid black;
 }
