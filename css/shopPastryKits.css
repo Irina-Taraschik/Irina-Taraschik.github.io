@@ -4,7 +4,10 @@
 	min-height: 612px;
 	margin-bottom: 30px;
 }
-
+.shopPastryKits__item{
+	flex: 1 1 320px;
+	margin: 15px;
+}
 .shopPastryKits__title {
 	text-align: center;
 	font-size: 29px;
