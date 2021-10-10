@@ -1,11 +1,13 @@
 .third-section {
 	display: flex;
+	justify-content: center;
 	background-color: white;
 	padding-top: 50px;
 	width: 100%;
 }
 .third-section__image {
-	align-items: flex-end;
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	height: 100%;
 }
