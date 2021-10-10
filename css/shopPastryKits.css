@@ -21,8 +21,8 @@
 
 .shopPastryKits__items {
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	height: 1400px;
 }
 
