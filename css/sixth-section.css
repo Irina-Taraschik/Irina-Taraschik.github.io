@@ -1,0 +1,23 @@
+.sixth-section {
+	width: 100%;
+	background-color: white;
+ }
+ .sixth-section__title {
+	font-size: 35px;
+	text-align: center;
+	line-height: 60px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: var(--font-roboto);
+ }
+ .sixth-section__items {
+	 display: flex;
+	 justify-content: space-between;
+	 padding-bottom: 40px;
+ }
+ .sixth-section__item {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
