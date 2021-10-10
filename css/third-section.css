@@ -1,11 +1,11 @@
 .third-section {
 	display: flex;
 	background-color: white;
-	margin-top: 50px;
-
+	padding-top: 50px;
+	width: 100%;
 }
 .third-section__image {
-	flex: 1;
+	align-items: flex-end;
 	width: 100%;
 	height: 100%;
 }
