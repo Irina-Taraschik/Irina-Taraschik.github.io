@@ -21,3 +21,9 @@
 	padding-left: 10px;
 	padding-right: 10px;
  }
+ .sixth-section__item:first-child {
+	 margin-left: -40px;
+ }
+ .sixth-section__item:last-child {
+	margin-right: -40px;
+}
