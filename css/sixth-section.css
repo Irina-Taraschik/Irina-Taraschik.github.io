@@ -6,8 +6,8 @@
 	font-size: 35px;
 	text-align: center;
 	line-height: 60px;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	padding-top: 60px;
+	padding-bottom: 40px;
 	font-family: var(--font-roboto);
  }
  .sixth-section__items {
@@ -22,7 +22,7 @@
 	padding-right: 10px;
  }
  .sixth-section__item:first-child {
-	 margin-left: -40px;
+	margin-left: -40px;
  }
  .sixth-section__item:last-child {
 	margin-right: -40px;
