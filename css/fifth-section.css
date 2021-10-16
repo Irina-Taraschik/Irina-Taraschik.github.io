@@ -46,6 +46,14 @@
 	max-width: 600px;
 	z-index: 1;
 }
-#layer1 { z-index: 1; }
-#layer2 { z-index: 2; }
-#layer3 { z-index: 3; }
+@media (max-width: 1400px) {
+	.fifth-section__item-img2 {
+		visibility: hidden;
+	}
+ }
+@media (max-width: 768px) {
+	.fifth-section__item-description {
+		font-size: 20px;
+		line-height: 28px;
+		
+	 }
