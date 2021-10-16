@@ -27,3 +27,9 @@
  .sixth-section__item:last-child {
 	margin-right: -60px;
 }
+@media (max-width: 655px) {
+	.sixth-section__item:first-child,
+	.sixth-section__item:last-child {
+		display: none;
+	}
+}

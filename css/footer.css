@@ -17,7 +17,6 @@
 	padding-bottom: 20px;
 }
 .footer-top__button {
-	box-sizing: border-box;
 	border-radius: 10px;
 	text-transform: uppercase;
 	padding-bottom: 80px;
@@ -63,5 +62,38 @@
 .footer-bottom__text {
 	font-size: 20px;
 	margin-top: 40px;
-
 }
+@media (max-width: 992px) {
+	.footer-top__title {
+		font-size: 40px;
+	}
+	.footer-top__text {
+		font-size: 20px;
+	}
+	.footer-top__button {
+		font-style: 10px;
+	}
+	.footer-bottom__item-title {
+		font-size: 15px;
+	}
+	.footer-bottom__item-content a {
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.footer-bottom__item-last i {
+		font-size: 25px;
+	}
+	.footer-bottom__text {
+		font-size: 15px;
+		margin-top: 30px;
+	}
+ }
+@media (max-width: 770px) {
+	.footer__logo {
+		sixe: 50%;
+	}
+}
+@media (max-width: 550px) {
+	.footer__logo {
+		display: none;
+	}

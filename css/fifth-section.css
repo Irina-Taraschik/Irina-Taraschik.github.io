@@ -50,10 +50,10 @@
 	.fifth-section__item-img2 {
 		visibility: hidden;
 	}
- }
+}
 @media (max-width: 768px) {
 	.fifth-section__item-description {
 		font-size: 20px;
 		line-height: 28px;
-		
 	 }
+}
