@@ -92,6 +92,30 @@
 	.footer__logo {
 		sixe: 50%;
 	}
+	.footer {
+		padding-bottom: 40px;
+	}
+	.footer-bottom__items {
+		flex-direction: column;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.footer-top__button {
+		padding-bottom: 40px;
+	}
+	.footer-bottom__item {
+		margin: 0 5px;
+	}
+	.footer-bottom__item-last {
+		padding-top: 5px;
+		justify-content: flex-start;
+	}
+	.footer-bottom__item-content {
+		margin-top: 13px;
+	}
+	.footer-bottom__text {
+		margin-top: 0px;
+	}
 }
 @media (max-width: 550px) {
 	.footer__logo {
