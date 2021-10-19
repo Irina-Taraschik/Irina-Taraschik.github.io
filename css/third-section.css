@@ -1,9 +1,8 @@
 .third-section {
-	display: flex;
-	justify-content: center;
 	background-color: white;
 	padding-top: 50px;
-	width: 100%;
+	background: url(images/third-section.png) no-repeat center center fixed;
+   background-size: cover;
 }
 .third-section__image {
 	display: flex;
