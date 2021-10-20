@@ -24,15 +24,12 @@
 .footer-bottom__items {
 	width: 100%;
 	display: flex;
-	align-items: top;
-	justify-content: space-between;
 	flex-direction: row;
 }
 .footer-bottom__item {
 	flex: 1 1 300px;
 	display: flex;
 	flex-direction: column;
-	margin: 0 15px;
 }
 .footer-bottom__item-last {
 	padding-top: 15px;
@@ -73,6 +70,9 @@
 	.footer-top__button {
 		font-style: 10px;
 	}
+	.footer__logo {
+		margin-right: 20px;
+	}
 	.footer-bottom__item-title {
 		font-size: 15px;
 	}
@@ -104,7 +104,8 @@
 		padding-bottom: 40px;
 	}
 	.footer-bottom__item {
-		margin: 0 5px;
+		flex: 1 1 auto;
+		margin: 10px;
 	}
 	.footer-bottom__item-last {
 		padding-top: 5px;
