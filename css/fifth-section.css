@@ -29,8 +29,8 @@
 }
 .fifth-section__item-img2 {
 	position: absolute;
-	
-	bottom: -53%;
+	bottom: -42%;
+	left: 40%;
 	z-index: 2;
 }
 .fifth-section__item-title {
@@ -57,4 +57,7 @@
 		font-size: 20px;
 		line-height: 28px;
 	 }
+	 .fifth-section__item {
+		margin: 5px 0px;
+	}
 }

@@ -16,13 +16,17 @@
 .shopPastryKits__items {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
+	align-content: center;
+	
+
 }
 
 .shopPastryKits__item{
 	flex: 1 1 320px;
 	margin: 20px;
 	flex-wrap: wrap;
+	
 }
 
 .shopPastryKits__item-img {
@@ -45,12 +49,12 @@
 	margin-top: 10px;
 }
 
-@media (max-width: 1210px) {
+@media (max-width: 1211px) {
 	.shopPastryKits__items {
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding: 15px;
 		font-size: 15px;
-		flex-direction: row;
+		flex-direction: column;
+		justify-content: center;
 		display: flex;
 		width: 100%;
 	}
