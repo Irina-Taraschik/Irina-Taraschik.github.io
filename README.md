@@ -14,3 +14,5 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child
 
 Icons
 https://fontawesome.com/v5.15/icons?d=gallery&p=2
+
+https://webref.ru/
