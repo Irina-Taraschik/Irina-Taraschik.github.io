@@ -40,7 +40,7 @@
 }
 .footer-bottom__item-last i {
 	font-size: 40px;
-	margin: 5px;
+	padding: 5px;
 }
 .footer-bottom__item-title {
 	font-size: 20px;
@@ -71,7 +71,7 @@
 		font-style: 10px;
 	}
 	.footer__logo {
-		margin-right: 20px;
+		padding-right: 20px;
 	}
 	.footer-bottom__item-title {
 		font-size: 15px;
@@ -105,7 +105,7 @@
 	}
 	.footer-bottom__item {
 		flex: 1 1 auto;
-		margin: 10px;
+		padding: 10px;
 	}
 	.footer-bottom__item-last {
 		padding-top: 5px;
@@ -122,3 +122,11 @@
 	.footer__logo {
 		display: none;
 	}
+	.footer-top__title {
+		font-size: 25px;
+	}
+	.footer-top__button span {
+		font-size: 10px;
+
+	}
+}

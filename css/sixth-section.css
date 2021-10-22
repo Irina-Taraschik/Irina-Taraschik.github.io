@@ -32,4 +32,7 @@
 	.sixth-section__item:last-child {
 		display: none;
 	}
+	.sixth-section__title {
+		font-size: 25px;
+	}
 }
